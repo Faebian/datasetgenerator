@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish output
+publish/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
