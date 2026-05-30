@@ -1,0 +1,6 @@
+﻿Dataset Generator Save
+Created=2026-05-30 08:43:36
+XMin=0
+XMax=200
+YMin=0
+YMax=0.950004756450653
