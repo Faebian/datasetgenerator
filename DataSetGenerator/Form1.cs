@@ -1357,7 +1357,14 @@ namespace DataSetGenerator
                     slope[i]));
             }
 
-            return sb.ToString();
+
+            string csvContents = sb.ToString();
+
+            // Debug dump to application root
+            string dumpPath = Path.Combine(Application.StartupPath, "dump.csv");
+            File.WriteAllText(dumpPath, csvContents, Encoding.UTF8);
+
+            return csvContents;
         }
 
         private void ApplyInferenceMarkers(string json)
